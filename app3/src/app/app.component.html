@@ -1,0 +1,15 @@
+<h1>{{msg}}</h1>
+<h2>{{slogan}}</h2>
+
+<input type="button" value="msg1" (click)="displayMsg1()"/>
+<input type="button" value="msg2" (click)="displayMsg2()" />
+<hr/>
+First Name<input type="text" [(ngModel)]="fname"/><br/>
+
+Good Morning,  {{fname}}
+
+<hr/>
+
+<div [style.color]="mycolor">
+  <p>This is my text</p>
+</div>
